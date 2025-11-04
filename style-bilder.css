@@ -12,6 +12,11 @@ body {
     border-color: green !important;
     color: green!important;
 }
+.btn.btn-primary:hover {
+    background-color: green !important;
+    color: white !important;
+}
+/* En hover for å igjen følge design språket til resten av siden. */
 /* Bytte farge på se kolleksjon og la til farge på borderen. Dette gjorde jeg for å fortsette å følge design språket til siden */
 
 .container-divs {
@@ -27,13 +32,16 @@ body {
 
 .container-footer {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
     padding: 2%;
    
 }
 /* Her er den ikke fikset til bunnen av skjermen hele tiden siden da går den over teksten */
-
+a {
+    text-decoration: none;
+    color: black;
+}
 .card-text {
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
