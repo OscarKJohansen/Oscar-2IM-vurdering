@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container-header{
+   padding: 0 2%;
+}
+
+.btn.btn-primary {
+    background-color: white !important;
+    border-color: green !important;
+    color: green!important;
+}
+/* Bytte farge på se kolleksjon og la til farge på borderen. Dette gjorde jeg for å fortsette å følge design språket til siden */
+
+.container-divs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: white !important;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 2%;
+   
+}
+/* Her er den ikke fikset til bunnen av skjermen hele tiden siden da går den over teksten */
+
+.card-text {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Her bruker jeg google fonten jeg fant jeg kan forandre på font-weight for å velge hvor tjukk teksten skal være */
